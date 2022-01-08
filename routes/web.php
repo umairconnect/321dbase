@@ -17,7 +17,7 @@ use App\Http\Controllers\GroupAdmin\DiscountsController;
 use App\Http\Controllers\Operator\MainController;
 use App\Http\Controllers\Operator\LogsController;
 
-use App\Http\Controllers\bepartner;
+use App\Http\Controllers\Bepartnerlist;
 
 /*
 |--------------------------------------------------------------------------
@@ -96,4 +96,4 @@ Route::group(['prefix' => 'operator','middleware' => 'operator'], function () {
     Route::resource('logs', LogsController::class);
 });
 
-Route::get('/partnerlist', [bepartner::class,'partnerlist']);
+Route::get('/partnerlist', [Bepartnerlist::class,'partnerlist']);
