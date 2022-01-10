@@ -9,6 +9,6 @@ class Bepartnerlist extends Controller
 {
     function partnerlist () {
         $data = Bepartner::paginate(5);
-        return view('layouts/header',['lists'=>$data]);
+        return view('layouts/partner',['lists'=>$data]);
     }
 }

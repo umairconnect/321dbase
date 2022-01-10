@@ -70,7 +70,7 @@
                             <td>{{ $group->gp_city }}</td>
                             <!-- <td>{{ $group->gp_district }}</td>
                             <td>{{ $group->gp_address }}</td>
-                            <td>{{ $gclass="pagination"roup->gp_zip }}</td>
+                            <td>{{ $group->gp_zip }}</td>
                             <td>{{ $group->gp_legal_name }}</td>
                             <td>{{ $group->gp_legal_id }}</td> -->
                             <td>{{ $group->gp_temp_psw }}</td>
@@ -108,6 +108,7 @@
 <!-- End Main Content -->
 
 @endsection
+
 
 
 @push('js')
@@ -160,3 +161,4 @@
 @push('css')
 <link href="{{ asset('plugins/datatables/datatables.bundle.css?v=1.0.0') }}" rel="stylesheet" type="text/css" />
 @endpush
+

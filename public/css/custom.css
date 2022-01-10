@@ -276,7 +276,13 @@
 
   z-index: 1;
 }
-
+.dropdown-content a {
+    color: #2b2b6b !important;
+    padding: 1.3rem !important;
+}
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.card-body svg{
+    width: 20px !important;
 }
