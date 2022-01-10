@@ -96,4 +96,4 @@ Route::group(['prefix' => 'operator','middleware' => 'operator'], function () {
     Route::resource('logs', LogsController::class);
 });
 
-Route::get('/partnerlist', [Bepartnerlist::class,'partnerlist']);
+Route::get('/partnerlist', [Bepartnerlist::class,'partnerlist'])->name('partner');

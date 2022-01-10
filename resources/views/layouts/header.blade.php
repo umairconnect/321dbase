@@ -27,12 +27,23 @@
                         <a href="{{ route('admin-messages.index') }}" class="nav-link py-4 px-6 {{ request()->segment(2) == 'admin-messages' ? 'active' : '' }}">Admin Messages</a>
                     </li>
 
-                    <li class="nav-item mr-3">
-                        <!-- Trigger the modal with a button -->
+                    <li class="nav-item">
 
-                        <a href="" class="nav-link py-4 px-6" data-toggle="modal" data-target="#myModal">
-                            Testing
-                        </a>
+                        <div class="dropdown">
+
+                            <a href="#" class="nav-link py-4 px-6">
+                             Forms
+                            </a>
+
+                            <div class="dropdown-content">
+                                    <a href="{{ route('partner') }}" class="nav-link py-4 px-6">
+                                        Partner
+                                    </a>
+                            </div>
+                        </div>
+
+
+
                         {{--<ul>--}}
                             {{--<li><a href=""></a>asdfasd </li>--}}
                         {{--</ul>--}}
