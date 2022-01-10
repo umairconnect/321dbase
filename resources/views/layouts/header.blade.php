@@ -39,6 +39,10 @@
                                     <a href="{{ route('partner') }}" class="nav-link py-4 px-6">
                                         Partner
                                     </a>
+
+                                    <a href="{{ route('contactdata') }}" class="nav-link py-4 px-6">
+                                         Contact Data
+                                    </a>
                             </div>
                         </div>
 

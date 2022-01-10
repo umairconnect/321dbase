@@ -97,3 +97,4 @@ Route::group(['prefix' => 'operator','middleware' => 'operator'], function () {
 });
 
 Route::get('/partnerlist', [Bepartnerlist::class,'partnerlist'])->name('partner');
+Route::get('/contactdata', [\App\Http\Controllers\Contactdatas::class,'contactdata'])->name('contactdata');
